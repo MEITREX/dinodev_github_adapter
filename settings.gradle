@@ -1,0 +1,10 @@
+rootProject.name = 'template'
+
+sourceControl {
+    gitRepository(uri('https://github.com/MEITREX/common')) {
+        producesModule('de.unistuttgart.iste.meitrex:meitrex-common')
+    }
+    gitRepository(uri('https://github.com/MEITREX/common_test')) {
+        producesModule('de.unistuttgart.iste.meitrex:meitrex-common-test')
+    }
+}
