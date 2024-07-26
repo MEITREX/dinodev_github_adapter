@@ -1,4 +1,4 @@
-rootProject.name = 'template'
+rootProject.name = 'github_adapter'
 
 sourceControl {
     gitRepository(uri('https://github.com/MEITREX/common')) {
@@ -6,5 +6,11 @@ sourceControl {
     }
     gitRepository(uri('https://github.com/MEITREX/common_test')) {
         producesModule('de.unistuttgart.iste.meitrex:meitrex-common-test')
+    }
+    gitRepository(uri('https://github.com/MEITREX/dinodev_common')) {
+        producesModule('de.unistuttgart.iste.meitrex:dinodev_common')
+    }
+    gitRepository(uri('https://github.com/MEITREX/dinodev_gamification_engine')) {
+        producesModule('de.unistuttgart.iste.meitrex:gamification_engine')
     }
 }
