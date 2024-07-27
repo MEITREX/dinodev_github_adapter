@@ -52,7 +52,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.modelmapper:modelmapper:3.+'
     implementation 'com.graphql-java:graphql-java-extended-scalars:20.0'
-    implementation 'com.graphql-java:graphql-java-extended-validation:20.0'
+    implementation 'com.graphql-java:graphql-java-extended-validation:22.0'
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
