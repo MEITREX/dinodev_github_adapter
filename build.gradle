@@ -39,11 +39,7 @@ repositories {
 
 dependencies {
     implementation 'de.unistuttgart.iste.meitrex:meitrex-common:1.2'
-    implementation('de.unistuttgart.iste.meitrex:dinodev_common') {
-        version {
-            branch = 'main'
-        }
-    }
+    implementation 'de.unistuttgart.iste.meitrex:dinodev_common:1.2'
     implementation 'de.unistuttgart.iste.meitrex:gamification_engine:1.2'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     implementation 'org.springframework.boot:spring-boot-starter-graphql'
@@ -51,8 +47,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.modelmapper:modelmapper:3.+'
-    implementation 'com.graphql-java:graphql-java-extended-scalars:20.0'
-    implementation 'com.graphql-java:graphql-java-extended-validation:20.0'
+    implementation 'com.graphql-java:graphql-java-extended-scalars:22.0'
+    implementation 'com.graphql-java:graphql-java-extended-validation:22.0'
     implementation 'org.springframework.boot:spring-boot-starter-webflux'
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
