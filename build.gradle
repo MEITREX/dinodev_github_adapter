@@ -58,7 +58,7 @@ dependencies {
     testImplementation 'org.springframework:spring-webflux'
     testImplementation 'org.springframework.graphql:spring-graphql-test'
     testImplementation "org.mockito:mockito-core:3.+"
-    testImplementation 'org.hamcrest:hamcrest:2.+'
+    testImplementation 'org.hamcrest:hamcrest:3.+'
     testImplementation "org.testcontainers:junit-jupiter:1.+"
 }
 
